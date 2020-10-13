@@ -1,4 +1,4 @@
-import React, {useState} from 'react'; //telling react to import useState allows you to export any other state from a component, namely a namedExport
+import React from 'react'; //telling react to import useState allows you to export any other state from a component, namely a namedExport
 
 const name = "Alfred";
 
