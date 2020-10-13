@@ -8,7 +8,7 @@ function Counter(props) {
   }
 
   function Decrement() {
-    setCount(count - 1);
+    setCount(count - 1); //You could also use return count - 1 and it will work
   }
 
   return (
@@ -16,8 +16,7 @@ function Counter(props) {
       <button onClick={Increment}>Increment</button> {/*onClick is a click eventHandler */}
       <p>{count}</p>
       <button onClick={Decrement}>Decrement</button>
-      <br/>
-      <p>{props.someData}</p>
+      <br />
     </div>
   );
 }

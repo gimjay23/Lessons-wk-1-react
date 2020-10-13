@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Namer() {
+function Namer(props) {
   const [name, setName] = useState("Daniel");
 
   function toggleName() {
