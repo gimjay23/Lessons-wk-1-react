@@ -1,7 +1,7 @@
 import React, { useState } from "react"; // Append Component only if you desire to use class components instead of functions,i.e export default class Counter extends Component {}
 
 function Counter(props) {
-  const [count, setCount] = useState(); //useState once used, will treat the first data as a variable and the second as a function to change the variable's value
+  const [count, setCount] = useState(0); //useState once used, will treat the first data as a variable and the second as a function to change the variable's value
   const [userLoggedIn, setUserLoggedIn] = useState (true); //useState to track if a user is logged in
 
   function Increment() {
