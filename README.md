@@ -1,3 +1,7 @@
+## Update 4
+
+- Conditional rendering forms: Standard form & tenery form (if else / syntatic sugar form)
+
 ## Update 3
 
 - Modified the naming conventions to better reflect what is actually happening

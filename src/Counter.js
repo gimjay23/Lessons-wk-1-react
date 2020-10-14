@@ -16,7 +16,7 @@ function Counter(props) {
     setUserLoggedIn (false);
   }
 
-  //OPTION II -- CONDITIONAL RENDERING -- TENARY STATEMENT
+  //OPTION II -- CONDITIONAL RENDERING -- TENERY STATEMENT
   function exampleIfElse () {
     if (count === 0) {
       console.log('Count is nothing')
