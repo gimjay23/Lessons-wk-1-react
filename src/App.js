@@ -7,7 +7,7 @@ import Counter from "./Counter";
 //import Namer from "./Namer";
 
 function App() {
-  functionIwantToExport();
+  functionIwantToExport(); //exported from FirstComponent
 
   return (
     <div className="main">
