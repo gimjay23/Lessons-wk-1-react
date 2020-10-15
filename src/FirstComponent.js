@@ -1,10 +1,6 @@
 import React from "react";
 import NewComponent from "./NewComponent";
 
-export function functionIwantToExport() {
-  console.log("I want to export this to the browser");
-}
-
 function FirstComponent() {
   return (
     <>
