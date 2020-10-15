@@ -29,6 +29,10 @@ function Counter(props) {
 
   }
 
+  function printName (name) {
+    console.log (name);
+  }
+
   return (
     <div>
       {userLoggedIn === true && <p>Hello User!</p>} {/*conditional rendering for tracking users logged in */}
@@ -37,9 +41,9 @@ function Counter(props) {
       {userLoggedIn === false ? <p>Please Sign Up for an Account</p> : <p>Hello User!</p> } {/*syntatic sugar conditional rendering form of tracking users logged in and out */}
 
 
-      <button onClick={Increment}>Increment</button> {/*onClick is a click eventHandler */}
+      <button onClick={Increment} onMouseMove={() => printName("Daniel")}>Increment</button> {/*onClick is a click eventHandler */}
       <p>{count}</p>
-      <button onClick={Decrement}>Decrement</button>
+      <button onClick={Decrement} onMouseMove={exampleIfElse}>Decrement</button>
       <br />
 
       {/**Conditional rendering to show a message of count being greater than 10 or less than 0 when such counts are reached */}
