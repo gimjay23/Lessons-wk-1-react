@@ -1,3 +1,7 @@
+## Update 5
+
+- useEffect and fetch api using axios
+
 ## Update 4
 
 - Conditional rendering forms: Standard form & tenery form (if else / syntatic sugar form)
