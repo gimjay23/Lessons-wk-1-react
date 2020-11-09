@@ -1,9 +1,17 @@
-import React from 'react'; //telling react to import useState allows you to export any other state from a component, namely a namedExport
+import React from "react"; //telling react to import useState allows you to export any other state from a component, namely a namedExport
 
 const name = "Alfred";
 
-function NewComponent () {
-    return <div>This is a new component is created by {name} </div>;
-};
+function NewComponent({ children, title }) {
+  return (
+    <div>
+      <pre>
+        <p>
+          {title} by <h3>{name}</h3>
+        </p>
+      </pre>
+    </div>
+  );
+}
 
 export default NewComponent;

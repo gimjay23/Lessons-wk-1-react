@@ -1,3 +1,7 @@
+## Update 6
+
+- Now on lesson 4 -- Forms, Maps, Filter, React Children
+
 ## Update 5
 
 - useEffect and fetch api using axios

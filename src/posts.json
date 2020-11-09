@@ -1,0 +1,36 @@
+[
+  {
+    "pos": "First",
+    "fname": "Daniel",
+    "lname": "Asiedu",
+    "uname": "gimjay23"
+  },
+
+  {
+    "pos": "Second",
+    "fname": "Dominic",
+    "lname": "Asare",
+    "uname": "$ir $terlin"
+  },
+
+  {
+    "pos": "Third",
+    "fname": "Derek",
+    "lname": "Sika",
+    "uname": "D-money"
+  },
+
+  {
+    "pos": "Fourth",
+    "fname": "Peter",
+    "lname": "Bentil",
+    "uname": "p3t3Ben"
+  },
+
+  {
+    "pos": "Fifth",
+    "fname": "Arnold",
+    "lname": "Randoloh",
+    "uname": "Shwazneger"
+  }
+]
